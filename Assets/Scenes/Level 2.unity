@@ -70209,6 +70209,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 743146385343272093, guid: 6becd74aa551d234c8229086b9f7f7ac, type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 1780463089}
     - target: {fileID: 5143455372732443732, guid: 6becd74aa551d234c8229086b9f7f7ac, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -70257,10 +70261,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cameras
       objectReference: {fileID: 0}
-    - target: {fileID: 6562239343005402682, guid: 6becd74aa551d234c8229086b9f7f7ac, type: 3}
-      propertyPath: m_Follow
-      value: 
-      objectReference: {fileID: 1780463089}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6becd74aa551d234c8229086b9f7f7ac, type: 3}
 --- !u!1001 &6686021049998348999
