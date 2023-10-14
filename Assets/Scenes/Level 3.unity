@@ -80413,21 +80413,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6686021050051738909, guid: 6bef12fe3aa301c418954ea15e03f04f, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6686021051508336425, guid: 6bef12fe3aa301c418954ea15e03f04f, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6686021051508336433, guid: 6bef12fe3aa301c418954ea15e03f04f, type: 3}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 1054172398706726545, guid: 1ad9ad9430d75af41accb8333a35b7a2, type: 3}
-    - target: {fileID: 6686021051508336433, guid: 6bef12fe3aa301c418954ea15e03f04f, type: 3}
-      propertyPath: jumpSpeed
-      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6686021051508336438, guid: 6bef12fe3aa301c418954ea15e03f04f, type: 3}
       propertyPath: m_RootOrder
@@ -80473,14 +80461,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6686021051508336439, guid: 6bef12fe3aa301c418954ea15e03f04f, type: 3}
-      propertyPath: m_SortingLayer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6686021051508336439, guid: 6bef12fe3aa301c418954ea15e03f04f, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1461504717
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6686021051508336432, guid: 6bef12fe3aa301c418954ea15e03f04f, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bef12fe3aa301c418954ea15e03f04f, type: 3}
