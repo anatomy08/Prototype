@@ -9,8 +9,9 @@ public class MobileControls : MonoBehaviour
    
     [SerializeField] float speed;
     [SerializeField] float jumpSpeed = 10f;
-    [SerializeField] GameObject bullet;
     CapsuleCollider2D myCapsuleCollider;
+    
+    AudioSource deathClip;
     float horizontalMove;
     bool moveRight;
     bool moveLeft;
@@ -24,6 +25,7 @@ public class MobileControls : MonoBehaviour
         moveLeft = false;
         moveRight = false;
         myCapsuleCollider = GetComponent<CapsuleCollider2D>();
+        deathClip = GetComponent<AudioSource>();
     }
 
     
@@ -90,8 +92,10 @@ public class MobileControls : MonoBehaviour
     {
         if (myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Enemies", "Hazards")))
         {
+            deathClip.Play();
             isAlive = false;
             Invoke(nameof(ResetLevel), 1f);
+
         }
     }
 
